@@ -203,6 +203,37 @@ img {
   flex-wrap: wrap;
   margin-right: -15px;
 }
+.feature-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+/* Преимущества компании */
+.advantages {
+  display: flex;
+  margin-right: -15px;
+}
+.item-advantages:not(:last-child) {
+  margin-right: 30px;
+}
+.item-advantages p {
+  margin-bottom: 0;
+}
+.advantages .item-advantages {
+  width: 270px;
+}
+.advantages .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.about {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
 /* Страница портфолио (сетка) */
 .feature-list .cards {
   flex-basis: calc(100% / 3 - var(--cards-set-gap));
@@ -228,7 +259,11 @@ img {
 .cards .section-filters {
   margin-bottom: 20px;
 }
-/* Страница студия  */
+.section-filters {
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* Чем занимается компания  */
 .feature-list-company {
   display: flex;
   flex-wrap: wrap;
@@ -242,6 +277,7 @@ img {
   margin-right: 0;
 }
 
+/* Команда компании */
 .feature-list .item {
   flex-basis: calc(100% / 4 - var(--cards-set-gap));
   margin-right: var(--cards-set-gap);
@@ -267,26 +303,10 @@ img {
   line-height: 1.2;
 }
 
-.feature-list .title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.2;
-}
-.about {
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
-}
-
-.section-filters {
-  font-size: 16px;
-  line-height: 1.87;
 }
 
 /* Button */
