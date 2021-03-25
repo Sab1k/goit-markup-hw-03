@@ -272,6 +272,9 @@ img {
   line-height: 1.87;
 }
 /* Чем занимается компания  */
+ .work {
+  padding-top: 0;
+}
 .feature-list-company {
   display: flex;
   flex-wrap: wrap;
@@ -396,7 +399,7 @@ img {
   text-decoration: none;
 }
 
-.contacts-footer .location {
+.address .location {
   margin-bottom: 9px;
   color: var(--primary-white-color);
 }
